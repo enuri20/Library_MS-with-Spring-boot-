@@ -1,0 +1,5 @@
+package model;
+
+public enum Subject {
+    NOVEL, FICTION, PHILOSOPHY, SELF_HELP, BIOGRAPHY, TRAVEL, BUSINESS, GENERAL;
+}

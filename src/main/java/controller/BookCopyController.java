@@ -17,6 +17,7 @@ public class BookCopyController {
     private BookCopyService bookCopyService;
 
 
+
     @GetMapping
     public List<BookCopy> getAllBookCopies() {
         return bookCopyService.getAllBookCopies();
