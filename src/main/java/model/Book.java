@@ -17,10 +17,13 @@ public abstract class Book {
     private Subject subject;
     private Language language;
 
-    public Book(String title, String author, String isbn) {
+    public Book(String title, String author, String isbn, String s, String l) {
         this.title = title;
         this.author = author;
         this.isbn = isbn;
+        this.subject = Subject.valueOf(s);
+        this.language = Language.valueOf(l);
+
     }
 
     public String getBookId() {

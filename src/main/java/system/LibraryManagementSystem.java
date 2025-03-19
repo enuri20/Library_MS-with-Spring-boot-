@@ -30,7 +30,7 @@ public class LibraryManagementSystem extends Application{
         fxmlLoader.setControllerFactory(context::getBean);
 
         Parent anchorPane = fxmlLoader.load();
-        Scene scene = new Scene(anchorPane, 400, 300);
+        Scene scene = new Scene(anchorPane, 1000, 700);
         primaryStage.setTitle("Library Management System");
         primaryStage.setScene(scene);
         primaryStage.show();

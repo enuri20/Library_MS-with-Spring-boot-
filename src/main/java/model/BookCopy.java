@@ -9,8 +9,8 @@ public class BookCopy extends Book {
     private Status status;
     private Customer customer;
 
-    public BookCopy(String title, String author,String isbn,  Status status, Customer customer) {
-        super(title, author, isbn);
+    public BookCopy(String title, String author,String isbn,  Status status, Customer customer, String s, String l) {
+        super(title, author, isbn, s, l);
         this.status = status;
         this.customer = customer;
     }

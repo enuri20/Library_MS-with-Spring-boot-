@@ -1,11 +1,11 @@
 
 –
-java:S1104"SMake context a static final constant or non-public and provide accessors if needed.(Öıí•8Ã¢ØàÚ2J$152f8370-3b05-4741-bacf-40a121ada81f
+java:S1104"SMake context a static final constant or non-public and provide accessors if needed.(Öıí•8Ã¢ØàÚ2J$229c0650-2f88-4afa-82f5-7d633ccce454
 p
-java:S1444"-Make this "public static context" field final(Öıí•8Ã¢ØàÚ2J$7079152b-ba55-4e30-a417-54fe940b6404
+java:S1444"-Make this "public static context" field final(Öıí•8Ã¢ØàÚ2J$dabcd10d-0937-47f7-803b-c915794b5636
 ~
-java:S2696"6Make the enclosing method "static" or remove this set.(û«´ûşÿÿÿÿ8€ŞôàÚ2J$938e0d3c-625f-4c20-a6c4-b96e3c084ab5
+java:S2696"6Make the enclosing method "static" or remove this set.(û«´ûşÿÿÿÿ8€ŞôàÚ2J$8b9e2f27-3461-4d7f-9458-03a9bd4c5734
 ~
-java:S1128";Remove this unused import 'javafx.scene.layout.AnchorPane'.(Ø µ8Û‹¢áÚ2J$b3e1f064-8141-42a8-8d63-7011bf9684e9
+java:S1128";Remove this unused import 'javafx.scene.layout.AnchorPane'.(Ø µ8Û‹¢áÚ2J$584a3674-ed71-4964-9aac-123fced9596a
 }
-java:S1128"5Remove this unused import 'javafx.scene.layout.VBox'.(íÆáÂùÿÿÿÿ8€ãŠáÚ2J$f60abcde-d412-454e-943c-785e1d45b2c7
+java:S1128"5Remove this unused import 'javafx.scene.layout.VBox'.(íÆáÂùÿÿÿÿ8€ãŠáÚ2J$1c0dc2e9-ca86-4d86-ac31-ab8a49f19b3c
