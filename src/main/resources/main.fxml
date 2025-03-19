@@ -10,12 +10,13 @@
 <VBox xmlns="http://javafx.com/javafx" alignment="TOP_CENTER" spacing="50"
       xmlns:fx="http://javafx.com/fxml"
       fx:controller="view.MainView"
+      stylesheets="style.css"
       prefHeight="400.0" prefWidth="600.0">
-    <Label text="Welcome to Library Management System">
+    <Label fx:id="first" text="Welcome to Library Management System">
         <VBox.margin><Insets top="150"></Insets> </VBox.margin>
     </Label>
 
-    <Label text="How can I help you today?"/>
+    <Label fx:id="second" text="How can I help you today?"/>
     <HBox spacing="150">
         <Button text="BORROW">
         <HBox.margin> <Insets  left="350"></Insets> </HBox.margin>

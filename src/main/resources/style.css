@@ -1,0 +1,13 @@
+Vbox{
+    -fx-background-color: #f4f4f4;
+}
+
+#first {
+    -fx-font-size:  20px
+
+}
+
+#second {
+    -fx-font-size: 18px
+
+}
