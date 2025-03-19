@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Controller;
 import service.BookService;
 
-@Component
+@Controller
 public class BookController {
     @Autowired
     private BookService bookService;

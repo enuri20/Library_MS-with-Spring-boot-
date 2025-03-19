@@ -1,13 +1,79 @@
 Vbox{
-    -fx-background-color: #f4f4f4;
+    -fx-background-color: #f4f499;
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-border-style: solid;
+
 }
 
 #first {
-    -fx-font-size:  20px
+    -fx-font-size:  30px
 
 }
 
 #second {
+    -fx-font-size: 22px
+
+}
+
+#borrow {
     -fx-font-size: 18px
 
 }
+#borrow:hover{
+    -fx-background-color: #b6b8c2
+}
+
+#return {
+    -fx-font-size: 18px
+
+}
+
+#return:hover {
+    -fx-background-color: #b6b8c2
+}
+#book {
+    -fx-font-size: 18px
+
+}
+
+#book:hover {
+    -fx-background-color: #b6b8c2
+}
+#customer {
+    -fx-font-size: 18px
+
+}
+
+#customer:hover {
+    -fx-background-color: #b6b8c2
+}
+
+#copy {
+    -fx-font-size: 18px
+
+}
+
+#copy:hover {
+    -fx-background-color: #b6b8c2
+}
+
+#borrow_copy {
+    -fx-font-size: 18px
+
+}
+#borrow_customer {
+    -fx-font-size: 18px
+
+}
+
+#enter {
+    -fx-font-size: 18px
+
+}
+#enter:hover {
+    -fx-background-color: #b6b8c2
+}
+
+
+

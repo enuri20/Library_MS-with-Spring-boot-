@@ -194,3 +194,5 @@ w
 G.idea/sonarlint/issuestore/c/1/c1630df5b4bd0cba2378d0ed994c513c5493aa7a,9/0/9080b76f28ab4f985966876b1e32912f65824090
 Å
 Q.idea/sonarlint/securityhotspotstore/d/9/d97261b66795b97107df45d4df3fc7faa4fb4e58,1/1/1107a15e8692989c183d3d720b684d162f02ac32
+R
+"src/main/java/view/BorrowView.java,8/d/8d8718e4ec3d5ce851e5b7a80e6a244fc01b3873

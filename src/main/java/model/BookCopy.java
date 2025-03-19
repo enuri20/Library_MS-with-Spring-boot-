@@ -8,11 +8,13 @@ public class BookCopy extends Book {
     private String bookCopyId;
     private Status status;
     private Customer customer;
+    private boolean isBorrowed;
 
     public BookCopy(String title, String author,String isbn,  Status status, Customer customer, String s, String l) {
         super(title, author, isbn, s, l);
         this.status = status;
         this.customer = customer;
+        this.isBorrowed = false;
     }
 
     public String getBookCopyId() {
@@ -37,5 +39,13 @@ public class BookCopy extends Book {
 
     public void setCustomer(Customer customer) {
         this.customer = customer;
+    }
+
+    public boolean isBorrowed() {
+        return isBorrowed;
+    }
+
+    public void setBorrowed(boolean borrowed) {
+        isBorrowed = borrowed;
     }
 }

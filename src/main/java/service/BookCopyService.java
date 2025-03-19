@@ -1,6 +1,7 @@
 package service;
 
 
+import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import model.*;
@@ -12,6 +13,7 @@ import java.util.List;
 
 @Service
 public class BookCopyService {
+
     @Autowired
     private BookCopyRepo bookCopyRepo;
     public List<BookCopy> getAllBookCopies(){
@@ -22,6 +24,9 @@ public class BookCopyService {
         bookCopyRepo.save(bookCopy);
     }
 
-
+    @Transactional
+    public void borrowBookCopy(String bookCopyId) {
+        bookCopyRepo.borrowBookCopy(bookCopyId);
+    }
 
 }

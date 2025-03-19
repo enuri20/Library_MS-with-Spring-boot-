@@ -1,2 +1,6 @@
 
-r	java:S106"+Replace this use of System.out by a logger.(Öÿˆœùÿÿÿÿ8„ƒ áÚ2J$40a2875f-97e6-49c4-acc1-052b5da95276
+r	java:S106"+Replace this use of System.out by a logger.(Öÿˆœùÿÿÿÿ8ÁÚ‰ûÚ2J$f51a5b68-c5ba-4f1d-839a-a9a49da4bc5e
+r	java:S106#"+Replace this use of System.out by a logger.(ÀĞ³÷ÿÿÿÿÿ8ÎÚ‰ûÚ2J$346764e2-bd2c-4851-b727-160624eaf853
+r	java:S1063"+Replace this use of System.out by a logger.(ÀĞ³÷ÿÿÿÿÿ8ÜÓûÚ2J$a77b4be1-3c95-4ed1-8761-7820af8c683a
+~
+java:S1128";Remove this unused import 'javafx.scene.layout.AnchorPane'.(Ø µ8õ‹ÔûÚ2J$6c8a7d81-b15e-421b-83c7-cb01d35b271f

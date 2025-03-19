@@ -10,6 +10,7 @@ import javafx.stage.Stage;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
+import view.MainView;
 
 @SpringBootApplication(scanBasePackages = {"system", "view"})
 public class LibraryManagementSystem extends Application{
@@ -28,6 +29,8 @@ public class LibraryManagementSystem extends Application{
     public void start(Stage primaryStage) throws Exception {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/main.fxml"));
         fxmlLoader.setControllerFactory(context::getBean);
+
+
 
         Parent anchorPane = fxmlLoader.load();
         Scene scene = new Scene(anchorPane, 1000, 700);

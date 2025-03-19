@@ -1,6 +1,6 @@
 
 …
 java:S6813
-"BRemove this field injection and use constructor injection instead.(êæÄŞ8õÃßáÚ2J$f214b121-4f14-4e4e-8802-6211d23e45eb
-
-java:S1128"FRemove this unused import 'org.springframework.stereotype.Controller'.(øŠ—Öùÿÿÿÿ8÷ÃßáÚ2J$bba7c1de-a2ae-463d-bca4-ad805f2e07ab
+"BRemove this field injection and use constructor injection instead.(êæÄŞ8õÃßáÚ2J$3e339898-4557-4f08-a5a3-8e9df1c59ea0
+
+java:S1128"ERemove this unused import 'org.springframework.stereotype.Component'.(Ş÷Ñ¸ÿÿÿÿÿ8¼ÙäÚ2J$74042c9c-3c1d-4066-ac4f-d8f553e5b5d6

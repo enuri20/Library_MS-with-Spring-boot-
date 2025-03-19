@@ -7,21 +7,39 @@
 <?import javafx.scene.layout.*?>
 
 <?import javafx.geometry.Insets?>
-<VBox xmlns="http://javafx.com/javafx" alignment="TOP_CENTER" spacing="50"
+<VBox xmlns="http://javafx.com/javafx" alignment="TOP_CENTER" spacing="80"
       xmlns:fx="http://javafx.com/fxml"
       fx:controller="view.MainView"
       stylesheets="style.css"
       prefHeight="400.0" prefWidth="600.0">
-    <Label fx:id="first" text="Welcome to Library Management System">
+    <Label fx:id="first" text="Welcome to the Library Management System">
         <VBox.margin><Insets top="150"></Insets> </VBox.margin>
     </Label>
 
     <Label fx:id="second" text="How can I help you today?"/>
     <HBox spacing="150">
-        <Button text="BORROW">
-        <HBox.margin> <Insets  left="350"></Insets> </HBox.margin>
+        <Button fx:id="borrow" text="BORROW" onAction="#handleBorrowButtonClick">
+        <HBox.margin> <Insets  left="320"></Insets> </HBox.margin>
 
     </Button>
-<Button text="RETURN"></Button>
-        </HBox>
+<Button fx:id="return" text="RETURN" onAction="#handleReturnButtonClick"></Button>
+    </HBox>
+    <HBox spacing="100">
+        <Button fx:id = "book" text = "MANAGE BOOKS"> <HBox.margin>
+            <Insets left="100"></Insets>
+        </HBox.margin>
+
+        </Button>
+        <Button fx:id="customer" text = "MANAGE CUSTOMERS"/>
+        <Button fx:id="copy" text = "MANAGE BOOK COPIES"/>
+
+    </HBox>
+
+
+
+
+
+
+
+
 </VBox>
