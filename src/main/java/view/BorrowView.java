@@ -8,7 +8,7 @@ public class BorrowView {
 
     @FXML
     public void init() {
-        System.out.println("Boorowing books");
+        System.out.println("Borrowing books");
     }
 
 
